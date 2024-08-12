@@ -326,7 +326,7 @@ button {
     color: #f4f4fd;
     background: #4d5ae5;
 }
-.img-part:hover .overcase, .img-part:focus .overcase {
+.li-items-portfolio:hover .overcase, .li-items-portfolio:focus .overcase {
     transform: translateY(0);
 }
 .portfolio-card {
