@@ -276,13 +276,7 @@ button {
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
-.icon-team:hover {
-    background-color: #404bbf;
-}
-.icon-team:focus {
-    background-color: #404bbf;
-}
-.icon-team:active {
+.icon-team:hover, .icon-team:focus {
     background-color: #404bbf;
 }
 .socicons {
@@ -309,8 +303,7 @@ button {
     max-width: calc((100% - 24px * 2) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.li-items-portfolio:hover, 
-.li-items-portfolio:focus {
+.li-items-portfolio:hover, .li-items-portfolio:focus {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .img-part {
@@ -332,8 +325,7 @@ button {
     color: #f4f4fd;
     background: #4d5ae5;
 }
-.img-part:hover .overcase, 
-.img-part:focus .overcase {
+.img-part:hover .overcase, .img-part:focus .overcase {
     transform: translateY(0);
 }
 .portfolio-card {
@@ -386,7 +378,7 @@ button {
     margin-bottom: 16px;
     letter-spacing: 0.02em;
 }
-.foo-ter .icon-team:hover, .foo-ter .icon-team:focus, .foo-ter .icon-team:active {
+.foo-ter .icon-team:hover, .foo-ter .icon-team:focus {
     background-color: #31d0aa;
 }
 /* #endregion footer */
